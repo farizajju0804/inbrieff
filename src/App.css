@@ -1,0 +1,77 @@
+:root{
+  --darkblue: #191641;
+  --blue: #435cff;
+  --yellow: #f7cd61;
+  --white: #fafafa;
+  --grey: #595f6f;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* html,
+body {
+  background: #0d0d11;
+  color: #fff;
+} */
+
+.DoYouKnow{
+    background: url(C:\Users\DELL\Desktop\project\inbrieff\src\assets\background.png) no-repeat center;
+    min-height: 100vh;
+    background-size: cover;
+    object-fit: cover;
+    
+
+}
+
+.Features{
+  background: var(--white);
+  min-height: 100vh;
+  object-fit: cover;
+  background-size: cover;
+ 
+
+}
+
+.none{
+  display: none;
+}
+
+.Home{
+  min-height: 100vh;
+  background-size: cover;
+  object-fit: cover;
+
+
+}
+
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+::-webkit-scrollbar{
+  background-color: var(--yellow);
+  border: none;
+  width: 0.3rem;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: var(--blue);
+}
+
+@font-face {
+  font-family: "Bookerly";   /*Can be any text*/
+  src: local("Bookerly"),
+    url("./fonts/Bookerly.ttf") format("truetype");
+}
